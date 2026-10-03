@@ -1,0 +1,442 @@
+{
+  "candidatos": [
+    {
+      "id": "lula",
+      "nome": "Luiz Inácio Lula da Silva",
+      "partido": "PT",
+      "corTema": "#b34136",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/lula-propostas-de-governo"
+    },
+    {
+      "id": "flavio",
+      "nome": "Flávio Bolsonaro",
+      "partido": "PL",
+      "corTema": "#315b77",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro"
+    },
+    {
+      "id": "caiado",
+      "nome": "Ronaldo Caiado",
+      "partido": "PSD",
+      "corTema": "#27766b",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+    },
+    {
+      "id": "cury",
+      "nome": "Augusto Cury",
+      "partido": "Avante",
+      "corTema": "#bc7c30",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo"
+    },
+    {
+      "id": "zema",
+      "nome": "Romeu Zema",
+      "partido": "Novo",
+      "corTema": "#d39131",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+    },
+    {
+      "id": "renan",
+      "nome": "Renan Santos",
+      "partido": "Missão",
+      "corTema": "#77508a",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+    }
+  ],
+  "eixos": [
+    "Economia",
+    "Segurança Pública",
+    "Educação",
+    "Saúde",
+    "Reforma Política",
+    "Meio Ambiente",
+    "Trabalho",
+    "Habitação"
+  ],
+  "propostas": [
+    {
+      "id": "p001",
+      "candidatoId": "lula",
+      "eixo": "Trabalho",
+      "tituloCurto": "Redução da jornada semanal para 40 horas",
+      "descricao": "O plano propõe o fim da escala 6x1 e a redução da jornada de trabalho semanal para 40 horas.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/lula-propostas-de-governo"
+    },
+    {
+      "id": "p002",
+      "candidatoId": "lula",
+      "eixo": "Saúde",
+      "tituloCurto": "Ampliação do atendimento especializado no SUS",
+      "descricao": "A iniciativa Agora tem Especialistas prevê ampliar consultas, exames e atendimento especializado pelo SUS.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/lula-propostas-de-governo"
+    },
+    {
+      "id": "p003",
+      "candidatoId": "lula",
+      "eixo": "Educação",
+      "tituloCurto": "Incentivo para concluir o ensino médio",
+      "descricao": "A proposta oferece incentivo financeiro a estudantes para apoiar a permanência e a conclusão do ensino médio.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/lula-propostas-de-governo"
+    },
+    {
+      "id": "p004",
+      "candidatoId": "lula",
+      "eixo": "Segurança Pública",
+      "tituloCurto": "Criação do Ministério da Segurança Pública",
+      "descricao": "O plano prevê criar um ministério próprio para coordenar ações nacionais de segurança pública.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/lula-propostas-de-governo"
+    },
+    {
+      "id": "p005",
+      "candidatoId": "lula",
+      "eixo": "Economia",
+      "tituloCurto": "Investimentos em infraestrutura e logística",
+      "descricao": "O plano reúne investimentos em obras de infraestrutura, logística e serviços públicos.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/lula-propostas-de-governo"
+    },
+    {
+      "id": "p006",
+      "candidatoId": "lula",
+      "eixo": "Meio Ambiente",
+      "tituloCurto": "Transição energética com fontes renováveis",
+      "descricao": "O programa prevê ampliar fontes renováveis, como eólica, solar e hidrogênio, na matriz energética.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/lula-propostas-de-governo"
+    },
+    {
+      "id": "p007",
+      "candidatoId": "lula",
+      "eixo": "Trabalho",
+      "tituloCurto": "Valorização do salário mínimo",
+      "descricao": "O plano inclui a política de valorização do salário mínimo entre suas medidas econômicas e trabalhistas.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/lula-propostas-de-governo"
+    },
+    {
+      "id": "p008",
+      "candidatoId": "lula",
+      "eixo": "Educação",
+      "tituloCurto": "Ampliação de creches e educação infantil",
+      "descricao": "O plano prevê ampliar o acesso à educação infantil e à oferta de creches.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/lula-propostas-de-governo"
+    },
+    {
+      "id": "p009",
+      "candidatoId": "flavio",
+      "eixo": "Segurança Pública",
+      "tituloCurto": "Redução da maioridade penal",
+      "descricao": "O plano propõe reduzir a maioridade penal e prevê responsabilização a partir dos 14 anos para determinados crimes graves.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro"
+    },
+    {
+      "id": "p010",
+      "candidatoId": "flavio",
+      "eixo": "Saúde",
+      "tituloCurto": "Agendamento de consultas com inteligência artificial",
+      "descricao": "O plano propõe usar inteligência artificial para agilizar agendamentos e integrar serviços do SUS.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro"
+    },
+    {
+      "id": "p011",
+      "candidatoId": "flavio",
+      "eixo": "Economia",
+      "tituloCurto": "Redução de impostos",
+      "descricao": "O programa lista a redução de impostos entre as medidas para diminuir custos para famílias e empresas.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro"
+    },
+    {
+      "id": "p012",
+      "candidatoId": "flavio",
+      "eixo": "Economia",
+      "tituloCurto": "Crédito para abrir e ampliar negócios",
+      "descricao": "O plano prevê linhas de crédito voltadas a pessoas que queiram empreender e abrir empresas.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro"
+    },
+    {
+      "id": "p013",
+      "candidatoId": "flavio",
+      "eixo": "Trabalho",
+      "tituloCurto": "Banco nacional de vagas de emprego",
+      "descricao": "A proposta cria uma base nacional para aproximar pessoas em busca de trabalho das vagas disponíveis.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro"
+    },
+    {
+      "id": "p014",
+      "candidatoId": "flavio",
+      "eixo": "Reforma Política",
+      "tituloCurto": "Fim da reeleição para presidente",
+      "descricao": "O plano propõe encerrar a possibilidade de reeleição para o cargo de presidente da República.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro"
+    },
+    {
+      "id": "p015",
+      "candidatoId": "flavio",
+      "eixo": "Segurança Pública",
+      "tituloCurto": "Construção de novos presídios",
+      "descricao": "O plano prevê ampliar a capacidade prisional, incluindo novas unidades de segurança máxima.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro"
+    },
+    {
+      "id": "p016",
+      "candidatoId": "flavio",
+      "eixo": "Habitação",
+      "tituloCurto": "Financiamento para acesso à moradia popular",
+      "descricao": "O plano inclui um programa de moradia entre as iniciativas de assistência e acesso à casa própria.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro"
+    },
+    {
+      "id": "p017",
+      "candidatoId": "caiado",
+      "eixo": "Economia",
+      "tituloCurto": "Revisão de gastos no Orçamento da Verdade",
+      "descricao": "A proposta prevê revisar despesas, subsídios e benefícios tributários para conter o crescimento dos gastos obrigatórios.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+    },
+    {
+      "id": "p018",
+      "candidatoId": "caiado",
+      "eixo": "Saúde",
+      "tituloCurto": "Fila transparente e regulação inteligente",
+      "descricao": "O plano propõe organizar filas do SUS com critérios transparentes e regulação do atendimento.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+    },
+    {
+      "id": "p019",
+      "candidatoId": "caiado",
+      "eixo": "Segurança Pública",
+      "tituloCurto": "Criação do Ministério da Segurança Pública",
+      "descricao": "O programa propõe criar um ministério específico para a coordenação federal de segurança pública.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+    },
+    {
+      "id": "p020",
+      "candidatoId": "caiado",
+      "eixo": "Segurança Pública",
+      "tituloCurto": "Redução da maioridade penal para 16 anos",
+      "descricao": "O plano defende reduzir para 16 anos a maioridade penal em casos de crimes graves.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+    },
+    {
+      "id": "p021",
+      "candidatoId": "caiado",
+      "eixo": "Educação",
+      "tituloCurto": "Alfabetização na idade certa",
+      "descricao": "O programa prevê ações nacionais para que estudantes aprendam a ler e escrever na idade adequada.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+    },
+    {
+      "id": "p022",
+      "candidatoId": "caiado",
+      "eixo": "Educação",
+      "tituloCurto": "Escolas em tempo integral",
+      "descricao": "O plano inclui ampliar a oferta de educação em tempo integral nas escolas.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+    },
+    {
+      "id": "p023",
+      "candidatoId": "caiado",
+      "eixo": "Meio Ambiente",
+      "tituloCurto": "Combate a incêndios e ao desmatamento",
+      "descricao": "O programa combina medidas de combate a incêndios e desmatamento com regularização ambiental.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+    },
+    {
+      "id": "p024",
+      "candidatoId": "caiado",
+      "eixo": "Reforma Política",
+      "tituloCurto": "Fim da reeleição no Executivo",
+      "descricao": "O plano propõe uma PEC para proibir a reeleição de presidente, governadores e prefeitos.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/ronaldo-caiado-propostas-de-governo"
+    },
+    {
+      "id": "p025",
+      "candidatoId": "cury",
+      "eixo": "Reforma Política",
+      "tituloCurto": "Transição para o semipresidencialismo",
+      "descricao": "A proposta divide responsabilidades entre um presidente como chefe de Estado e um primeiro-ministro à frente do governo.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo"
+    },
+    {
+      "id": "p026",
+      "candidatoId": "cury",
+      "eixo": "Reforma Política",
+      "tituloCurto": "Mandato de oito anos para ministros do STF",
+      "descricao": "O plano propõe estabelecer um mandato de oito anos para ministros do Supremo Tribunal Federal.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo"
+    },
+    {
+      "id": "p027",
+      "candidatoId": "cury",
+      "eixo": "Educação",
+      "tituloCurto": "Educação básica em tempo integral",
+      "descricao": "A proposta prioriza escolas com atividades de aprendizagem, artes, esportes e convivência ao longo do dia.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo"
+    },
+    {
+      "id": "p028",
+      "candidatoId": "cury",
+      "eixo": "Educação",
+      "tituloCurto": "Plano de inclusão por unidade escolar",
+      "descricao": "O plano prevê ações escolares de acolhimento a pessoas autistas, com TDAH, dislexia e altas habilidades.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo"
+    },
+    {
+      "id": "p029",
+      "candidatoId": "cury",
+      "eixo": "Saúde",
+      "tituloCurto": "Telemedicina para ampliar o acesso ao SUS",
+      "descricao": "A proposta prevê atendimento digital e telemedicina para ampliar o acesso a serviços do SUS.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo"
+    },
+    {
+      "id": "p030",
+      "candidatoId": "cury",
+      "eixo": "Economia",
+      "tituloCurto": "Crédito de baixo custo para empreendedores",
+      "descricao": "O Banco do Empreendedor ofereceria crédito de até R$ 20 mil com juros reduzidos para pequenos negócios.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo"
+    },
+    {
+      "id": "p031",
+      "candidatoId": "cury",
+      "eixo": "Habitação",
+      "tituloCurto": "Regularização de moradias em favelas",
+      "descricao": "O plano prevê regularizar moradias em favelas sem retirar os atuais ocupantes, junto a melhorias urbanas.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo"
+    },
+    {
+      "id": "p032",
+      "candidatoId": "cury",
+      "eixo": "Meio Ambiente",
+      "tituloCurto": "Matriz energética 90% limpa até 2040",
+      "descricao": "O programa propõe ampliar a participação de fontes renováveis na matriz energética até 2040.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/escritor-augusto-cury-propostas-de-governo"
+    },
+    {
+      "id": "p033",
+      "candidatoId": "zema",
+      "eixo": "Economia",
+      "tituloCurto": "Privatização de empresas estatais",
+      "descricao": "O plano propõe privatizar as empresas estatais como parte de uma mudança na atuação do Estado na economia.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+    },
+    {
+      "id": "p034",
+      "candidatoId": "zema",
+      "eixo": "Economia",
+      "tituloCurto": "Redução gradual do imposto sobre empresas",
+      "descricao": "O programa propõe reduzir gradualmente a alíquota do Imposto de Renda das empresas.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+    },
+    {
+      "id": "p035",
+      "candidatoId": "zema",
+      "eixo": "Reforma Política",
+      "tituloCurto": "Reforma administrativa e menos ministérios",
+      "descricao": "A proposta prevê reorganizar a administração federal e reduzir ministérios e cargos.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+    },
+    {
+      "id": "p036",
+      "candidatoId": "zema",
+      "eixo": "Saúde",
+      "tituloCurto": "Telemedicina e prontuário eletrônico nacional",
+      "descricao": "O plano prevê ampliar a telemedicina e adotar um registro nacional de informações de saúde.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+    },
+    {
+      "id": "p037",
+      "candidatoId": "zema",
+      "eixo": "Saúde",
+      "tituloCurto": "Parcerias privadas para reduzir filas no SUS",
+      "descricao": "A proposta prevê parcerias público-privadas e uso de capacidade ociosa para ampliar atendimentos do SUS.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+    },
+    {
+      "id": "p038",
+      "candidatoId": "zema",
+      "eixo": "Segurança Pública",
+      "tituloCurto": "Redução da maioridade penal para 16 anos",
+      "descricao": "O programa propõe reduzir a maioridade penal para 16 anos ou menos.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+    },
+    {
+      "id": "p039",
+      "candidatoId": "zema",
+      "eixo": "Educação",
+      "tituloCurto": "Recuperação da alfabetização e aprendizagem",
+      "descricao": "O plano prevê recompor aprendizagens e apoiar a formação de professores e diretores escolares.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+    },
+    {
+      "id": "p040",
+      "candidatoId": "zema",
+      "eixo": "Educação",
+      "tituloCurto": "Escolha entre educação domiciliar e cívico-militar",
+      "descricao": "A proposta inclui liberdade de escolha educacional, com escolas cívico-militares e homeschooling.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/zema"
+    },
+    {
+      "id": "p041",
+      "candidatoId": "renan",
+      "eixo": "Economia",
+      "tituloCurto": "Ajuste fiscal e revisão de despesas obrigatórias",
+      "descricao": "A PEC do Equilíbrio Fiscal propõe mudanças em despesas e regras fiscais para reduzir o déficit público.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+    },
+    {
+      "id": "p042",
+      "candidatoId": "renan",
+      "eixo": "Economia",
+      "tituloCurto": "Mudança nos pisos de saúde e educação",
+      "descricao": "O plano propõe desvincular pisos constitucionais de despesas de saúde, educação e Fundeb.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+    },
+    {
+      "id": "p043",
+      "candidatoId": "renan",
+      "eixo": "Trabalho",
+      "tituloCurto": "Frentes de trabalho comunitário remunerado",
+      "descricao": "As Frentes Cidadãs propõem trabalho remunerado em atividades comunitárias no lugar do Bolsa Família.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+    },
+    {
+      "id": "p044",
+      "candidatoId": "renan",
+      "eixo": "Saúde",
+      "tituloCurto": "Fila do SUS priorizada por gravidade",
+      "descricao": "A escala nacional de estratificação de risco propõe priorizar atendimentos de acordo com a gravidade clínica.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+    },
+    {
+      "id": "p045",
+      "candidatoId": "renan",
+      "eixo": "Saúde",
+      "tituloCurto": "Prontuário eletrônico e telessaúde com IA",
+      "descricao": "O plano prevê um prontuário nacional interoperável e serviços de telessaúde com inteligência artificial.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+    },
+    {
+      "id": "p046",
+      "candidatoId": "renan",
+      "eixo": "Segurança Pública",
+      "tituloCurto": "Superpresídios de segurança máxima",
+      "descricao": "A proposta prevê construir presídios de segurança máxima em regiões remotas.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+    },
+    {
+      "id": "p047",
+      "candidatoId": "renan",
+      "eixo": "Educação",
+      "tituloCurto": "Alfabetização pelo método fônico",
+      "descricao": "O plano propõe alfabetização com base no método fônico e metas de alfabetização universal.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+    },
+    {
+      "id": "p048",
+      "candidatoId": "renan",
+      "eixo": "Reforma Política",
+      "tituloCurto": "Fusão de municípios com baixa sustentabilidade fiscal",
+      "descricao": "A Grande Consolidação Municipal propõe fundir municípios considerados fiscalmente inviáveis.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/renan-santos-propostas-de-governo"
+    }
+  ]
+}
