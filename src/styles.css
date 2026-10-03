@@ -241,7 +241,7 @@ kbd { margin-left: auto; color: #aaa69c; font: 9px var(--mono); }
   .source-status, .tie-notice { font-size: 11px; }.results-end { flex-wrap: wrap; }.proposal-description.open { max-height: 180px; }.card-stage { width: 100%; }.decision-button { font-size: 11px; }.results-footer { line-height: 1.7; }
 }
 
-.saved-result-notice { grid-column: 1 / -1; margin-bottom: 28px; padding: 20px 24px; border: 1px solid #98a18f; border-radius: 10px; background: #edf0e8; }
+.saved-result-notice { grid-column: 1 / -1; margin-top: 16px; padding: 20px 24px; border: 1px solid #98a18f; border-radius: 10px; background: #edf0e8; }
 .saved-result-notice h2 { margin: 0 0 6px; font-size: 17px; }.saved-result-notice p { margin: 0 0 14px; color: var(--muted); font-size: 12px; line-height: 1.6; }
 .saved-result-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; }
 .secondary-button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 16px; border: 1px solid #b8bdb0; border-radius: 8px; background: transparent; font-size: 12px; color: #46503f; cursor: pointer; line-height: 1.5; }.secondary-button:hover { background: #e9ede3; }
@@ -249,6 +249,6 @@ kbd { margin-left: auto; color: #aaa69c; font: 9px var(--mono); }
 .result-export-panel { margin: 25px 0 4px; padding: 21px 24px; display: flex; flex-direction: column; align-items: flex-start; border: 1px solid var(--line); border-radius: 10px; background: rgba(255,254,250,.76); }
 .result-date { color: #6f7567; font-size: 12px; line-height: 1.6; margin: 0 0 15px; }.pdf-button { gap: 10px; }.export-privacy { margin: 10px 0 17px; max-width: 650px; color: var(--muted); font-size: 12px; line-height: 1.65; }.result-action-message { margin: 10px 0 0; color: #526f56; font-size: 12px; line-height: 1.6; }
 @media (max-width: 680px) {
-  .saved-result-notice { padding: 17px 16px; margin-bottom: 22px; }.saved-result-actions { flex-direction: column; align-items: stretch; }
+  .saved-result-notice { padding: 17px 16px; }.saved-result-actions { flex-direction: column; align-items: stretch; }
   .result-export-panel { padding: 18px 16px; }.result-export-panel .primary-button, .save-result-button { width: 100%; white-space: normal; text-align: center; }.pdf-button { font-size: 12px; padding: 12px; line-height: 1.5; }.pdf-button svg { flex-shrink: 0; }
 }

@@ -228,12 +228,6 @@ function App() {
 
       {screen === 'intro' && (
         <main className="intro-screen page-width" id="inicio">
-          {!dismissSavedNotice && (savedState.result || savedState.error) && <section className="saved-result-notice" aria-label="Resultado salvo neste navegador">
-            {savedState.result && <><h2>Você tem um resultado salvo</h2><p>Teste de {formatResultDate(savedState.result.testedAt)}. Guardado somente neste navegador.</p>
-              <div className="saved-result-actions"><button className="primary-button" onClick={openSavedResult}>Ver resultado</button><button className="secondary-button" onClick={() => { restart(); setDismissSavedNotice(true); }}>Começar novo teste</button></div></>}
-            {savedState.error && <p role="status">{savedState.error}</p>}
-            <button className="text-button" onClick={forgetSavedResult}>Esquecer este resultado</button>
-          </section>}
           <section className="hero-copy">
             <div className="eyebrow"><span className="eyebrow-line" /> ELEIÇÃO COM MAIS CONTEXTO</div>
             <h1>Primeiro, as ideias.<br /><em>Depois, os nomes.</em></h1>
@@ -287,6 +281,12 @@ function App() {
             {!selectedDeck.length && <p role="status">Não há propostas neste modo para os temas escolhidos. Escolha outros temas ou o modo completo.</p>}
             <button className="primary-button" onClick={startRound} disabled={!selectedDeck.length}>Começar · {selectedDeck.length} cartões <ArrowRight size={17} /></button>
           </section>
+          {!dismissSavedNotice && (savedState.result || savedState.error) && <section className="saved-result-notice" aria-label="Resultado salvo neste navegador">
+            {savedState.result && <><h2>Você tem um resultado salvo</h2><p>Teste de {formatResultDate(savedState.result.testedAt)}. Guardado somente neste navegador.</p>
+              <div className="saved-result-actions"><button className="primary-button" onClick={openSavedResult}>Ver resultado</button><button className="secondary-button" onClick={() => { restart(); setDismissSavedNotice(true); }}>Começar novo teste</button></div></>}
+            {savedState.error && <p role="status">{savedState.error}</p>}
+            <button className="text-button" onClick={forgetSavedResult}>Esquecer este resultado</button>
+          </section>}
           <footer className="intro-footer"><span>FEITO PARA ESCOLHER COM CALMA</span><span>{database.propostas.length} propostas de origem · repetidas agrupadas · 0 nomes à vista</span></footer>
         </main>
       )}
