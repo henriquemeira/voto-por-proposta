@@ -37,6 +37,8 @@ O dataset fornecido tem 83 propostas de origem: 43 principais e 40 completas. Ca
 
 `paginas: null` indica conferência pendente contra o plano oficial. Referências preenchidas são exibidas conforme o dataset; o app não verifica automaticamente as fontes. Confira o conteúdo antes de apresentar a base como oficialmente validada.
 
+Em 03/10/2026, as 83 propostas receberam descrições resumidas a partir dos planos completos disponíveis no TSE. O campo `fonte` aponta para o PDF oficial, com `#page=` para o trecho utilizado. Foram localizadas páginas para os 19 registros que tinham `paginas: null`. Os textos são paráfrases editoriais; os objetivos apresentados pelos planos não representam resultados garantidos. Veja [a nota de consulta e diferenças entre títulos e documentos](docs/consulta-planos-oficiais.md).
+
 ## Rodadas e resultado
 
 O modo rápido é o padrão. Após responder todos os cartões rápidos, “Aprofundar com mais propostas” adiciona cartões inéditos dos temas escolhidos e mantém todas as respostas e a ordem anterior. Se uma ideia já respondida também tiver origens adicionais no modo completo, essas origens são incluídas no cálculo sem repetir o cartão.
