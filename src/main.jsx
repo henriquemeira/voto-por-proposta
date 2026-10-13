@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import {
-  ArrowLeft, ArrowRight, ArrowUpRight, Check, ChevronDown, ChevronUp,
+  ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, Check, ChevronDown, ChevronUp,
   CircleHelp, Download, Heart, RotateCcw, Sparkles, X,
 } from 'lucide-react';
 import rawDatabase from '../propostas-candidatos-2026.json';
@@ -373,7 +373,7 @@ function App() {
       {screen === 'results' && (
         <main className="results-screen page-width">
           <div className="results-heading">
-            <div><div className="eyebrow"><span className="eyebrow-line" /> {visibleResult.fase === 'turno-2' ? 'SEGUNDO TURNO' : 'PRIMEIRO TURNO · ARQUIVO'} · SUA RODADA, REVELADA</div><h1>Ideias em comum.<br /><em>Agora, os nomes.</em></h1><p>Você marcou <b>{resultTotals.pickedCards}</b> {resultTotals.pickedCards === 1 ? 'cartão' : 'cartões'} entre {resultTotals.answered} respondidos, de {resultTotals.included} cartões na rodada.</p></div>
+            <div><div className="eyebrow"><span className="eyebrow-line" /> {visibleResult.fase === 'turno-2' ? 'SEGUNDO TURNO' : 'PRIMEIRO TURNO · ARQUIVO'} · SUA RODADA, REVELADA</div><h1>Ideias em comum.<br /><em>Agora, os nomes.</em></h1><p>Você marcou <b>{resultTotals.pickedCards}</b> {resultTotals.pickedCards === 1 ? 'cartão' : 'cartões'} entre {resultTotals.answered} respondidos, de {resultTotals.included} cartões na rodada.</p><a className="result-actions-shortcut" href="#acoes-resultado">Mais opções: aprofundar, refazer, salvar e PDF <ArrowDown size={15} /></a></div>
             <div className="result-seal"><span className="seal-star">✳</span><span>RESPOSTAS<br />REGISTRADAS</span><b>{resultTotals.answered}<small> / {resultTotals.included}</small></b></div>
           </div>
 
@@ -428,13 +428,15 @@ function App() {
               })}
             </div>}
           </section>
-          {!viewedResult && <div className="round-next-actions">
-            {nextDepth && resultTotals.answered === resultTotals.included && additionalCount > 0 && <div className="deepen-panel"><div><h2>{nextDepth === 'intermediate' ? 'Quer explorar mais ideias?' : 'Quer ver todos os tópicos?'}</h2><p>Suas escolhas serão mantidas. Mais {additionalCount} cartões inéditos · {estimateTime(additionalCount)}.</p></div><button className="primary-button" onClick={deepen}>{nextDepth === 'intermediate' ? 'Continuar no modo intermediário' : 'Aprofundar com todas as propostas'} <ArrowRight size={17} /></button></div>}
-            {resultTotals.answered < resultTotals.included && <button className="primary-button" onClick={() => setScreen('game')}>Continuar rodada <ArrowRight size={17} /></button>}
-            {resultTotals.answered > 0 && <button className="back-link" onClick={undo}><RotateCcw size={14} /> Desfazer última resposta</button>}
-          </div>}
-          <div className="results-end"><p>Este resultado é um ponto de partida para sua pesquisa.<br />A decisão de voto continua sendo sua.</p><button className="primary-button" onClick={restart}><RotateCcw size={16} /> Refazer teste</button></div>
-          <section className="result-export-panel" aria-label="Guardar meu resultado">
+          <div className="result-actions-hub" id="acoes-resultado" tabIndex={-1}>
+            <div className="result-actions-title"><span className="eyebrow">OPÇÕES DA RODADA</span><h2>O que você quer fazer agora?</h2></div>
+            {!viewedResult && <div className="round-next-actions">
+              {nextDepth && resultTotals.answered === resultTotals.included && additionalCount > 0 && <div className="deepen-panel"><div><h2>{nextDepth === 'intermediate' ? 'Quer explorar mais ideias?' : 'Quer ver todos os tópicos?'}</h2><p>Suas escolhas serão mantidas. Mais {additionalCount} cartões inéditos · {estimateTime(additionalCount)}.</p></div><button className="primary-button" onClick={deepen}>{nextDepth === 'intermediate' ? 'Continuar no modo intermediário' : 'Aprofundar com todas as propostas'} <ArrowRight size={17} /></button></div>}
+              {resultTotals.answered < resultTotals.included && <button className="primary-button" onClick={() => setScreen('game')}>Continuar rodada <ArrowRight size={17} /></button>}
+              {resultTotals.answered > 0 && <button className="back-link" onClick={undo}><RotateCcw size={14} /> Desfazer última resposta</button>}
+            </div>}
+            <div className="results-end"><p>Este resultado é um ponto de partida para sua pesquisa.<br />A decisão de voto continua sendo sua.</p><button className="primary-button" onClick={restart}><RotateCcw size={16} /> Refazer teste</button></div>
+            <section className="result-export-panel" aria-label="Guardar meu resultado">
             <p className="result-date">Teste feito em {formatResultDate(visibleResult.testedAt)}{viewedResult ? ' · resultado salvo' : ''}</p>
             <button className="primary-button pdf-button" onClick={exportPdf} disabled={pdfBusy}><Download size={17} />{pdfBusy ? 'Gerando PDF…' : 'Baixar meu resultado em PDF'}</button>
             <p className="export-privacy">O PDF é gerado neste dispositivo, inclusive sem internet com o app já aberto.</p>
@@ -442,7 +444,8 @@ function App() {
             <p className="export-privacy">Salvar é opcional. Só o último resultado é guardado, apenas quando você clica no botão. O dado fica só neste navegador: o app o lê aqui, sem acesso por servidor ou outro dispositivo e sem enviá-lo pela rede.</p>
             {(savedState.result || savedState.error) && <button className="text-button" onClick={forgetSavedResult}>Esquecer este resultado</button>}
             {resultMessage && <p className="result-action-message" role="status">{resultMessage}</p>}
-          </section>
+            </section>
+          </div>
 
           <footer className="results-footer">VOTO POR PROPOSTA <span>·</span> Dataset fornecido · referências ao TSE · itens sem páginas aguardam conferência</footer>
         </main>
