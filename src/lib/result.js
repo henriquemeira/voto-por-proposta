@@ -3,7 +3,7 @@ import { rankCandidates } from './round.js';
 export const RESULT_STORAGE_KEY = 'voto-por-proposta:last-result:v1';
 
 // Salva uma fotografia do resultado, sem respostas rejeitadas nem histórico.
-export function createResult({ testedAt, depth, selectedAxes, round, answers, candidatos, eixos }) {
+export function createResult({ testedAt, depth, selectedAxes, round, answers, candidatos, eixos, fase = 'turno-1' }) {
   const liked = new Set(answers.filter((answer) => answer.interessada).map((answer) => answer.id));
   const cards = round.filter((card) => liked.has(card.id));
   const propostas = cards.flatMap((card) => card.propostas).map((proposal) => ({
@@ -12,9 +12,9 @@ export function createResult({ testedAt, depth, selectedAxes, round, answers, ca
     paginas: proposal.paginas ?? null, fonte: proposal.fonte || '',
   }));
   return {
-    version: 1, testedAt, depth, selectedAxes: [...selectedAxes],
+    version: 2, fase, testedAt, depth, selectedAxes: [...selectedAxes],
     totals: { included: round.length, answered: answers.length, pickedCards: cards.length },
-    candidatos: candidatos.map(({ id, nome, partido, corTema, urlTse }) => ({ id, nome, partido, corTema, urlTse })),
+    candidatos: candidatos.map(({ id, nome, partido, numero, coligacao, vice, programa, corTema, urlTse, urlPdf }) => ({ id, nome, partido, numero, coligacao, vice, programa, corTema, urlTse, urlPdf })),
     propostas,
     rankings: rankCandidates(candidatos, round, propostas),
     areaRankings: eixos.map((eixo) => {
@@ -34,8 +34,8 @@ const isStat = (stat) => isCandidate(stat) && isCount(stat.total) && stat.total 
   && isCount(stat.place) && stat.place > 0 && typeof stat.tied === 'boolean';
 
 export function isSavedResult(result) {
-  if (!result || result.version !== 1 || !isText(result.testedAt) || !Number.isFinite(Date.parse(result.testedAt))
-    || !['quick', 'complete'].includes(result.depth)
+  if (!result || ![1, 2].includes(result.version) || (result.version === 2 && !['turno-1', 'turno-2'].includes(result.fase)) || !isText(result.testedAt) || !Number.isFinite(Date.parse(result.testedAt))
+    || !['quick', 'intermediate', 'complete'].includes(result.depth)
     || !Array.isArray(result.selectedAxes) || !result.selectedAxes.every(isText)
     || !result.totals || !['included', 'answered', 'pickedCards'].every((key) => isCount(result.totals[key]))
     || result.totals.answered > result.totals.included || result.totals.pickedCards > result.totals.answered
@@ -52,9 +52,11 @@ export function isSavedResult(result) {
       && area.stats.every((stat) => isStat(stat) && ids.has(stat.id)));
 }
 
-export function readSavedResult(storage) {
+const keyForPhase = (phase) => phase === 'turno-1' ? RESULT_STORAGE_KEY : `${RESULT_STORAGE_KEY}:turno-2`;
+
+export function readSavedResult(storage, phase = 'turno-1') {
   try {
-    const raw = (storage || window.localStorage).getItem(RESULT_STORAGE_KEY);
+    const raw = (storage || window.localStorage).getItem(keyForPhase(phase));
     if (!raw) return { result: null, error: '' };
     const result = JSON.parse(raw);
     if (!isSavedResult(result)) throw new Error('Invalid snapshot');
@@ -68,16 +70,16 @@ export function readSavedResult(storage) {
 export function saveResult(result, storage) {
   try {
     if (!isSavedResult(result)) throw new Error('Invalid snapshot');
-    (storage || window.localStorage).setItem(RESULT_STORAGE_KEY, JSON.stringify(result));
+    (storage || window.localStorage).setItem(keyForPhase(result.fase || 'turno-1'), JSON.stringify(result));
     return { result, error: '' };
   } catch {
     return { result: null, error: 'Não foi possível salvar neste navegador. Verifique se o armazenamento local está permitido ou baixe o PDF.' };
   }
 }
 
-export function forgetResult(storage) {
+export function forgetResult(storage, phase = 'turno-1') {
   try {
-    (storage || window.localStorage).removeItem(RESULT_STORAGE_KEY);
+    (storage || window.localStorage).removeItem(keyForPhase(phase));
     return { result: null, error: '' };
   } catch {
     return { error: 'Não foi possível apagar o resultado. Verifique as permissões de armazenamento deste navegador.' };

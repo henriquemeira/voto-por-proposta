@@ -42,7 +42,9 @@ export function buildDeck(proposals) {
 export function filterDeck(proposals, axes, depth) {
   return buildDeck(proposals.filter((proposal) =>
     (!axes.length || axes.includes(proposal.eixo))
-    && (depth === 'complete' || proposal.nivel === 'principal')));
+    && (depth === 'complete'
+      || proposal.nivel === 'principal'
+      || (depth === 'intermediate' && proposal.nivel === 'intermediario'))));
 }
 
 export function extendRound(round, completeDeck) {

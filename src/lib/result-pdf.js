@@ -44,9 +44,10 @@ export function createResultPdf(result) {
   }
 
   text('Voto por Proposta', { size: 24, bold: true, after: 5 });
-  text('Meu resultado', { size: 14, after: 5 });
+  text(`${result.fase === 'turno-2' ? 'Segundo turno · 2026' : 'Primeiro turno · arquivo'} — Meu resultado`, { size: 14, after: 5 });
   text(`Teste feito em ${formatResultDate(result.testedAt)}`);
-  text(`Modo ${result.depth === 'quick' ? 'rápido' : 'completo'} | Temas: ${result.selectedAxes.length ? result.selectedAxes.join(', ') : 'todos'}`);
+  const depthLabel = { quick: 'rápido', intermediate: 'intermediário', complete: 'completo' }[result.depth] || 'completo';
+  text(`Modo ${depthLabel} | Temas: ${result.selectedAxes.length ? result.selectedAxes.join(', ') : 'todos'}`);
   text(`${result.totals.pickedCards} cartões marcados, ${result.totals.answered} respondidos de ${result.totals.included} incluídos.`);
   if (result.totals.answered < result.totals.included) {
     text('Rodada encerrada antes do fim. Os cartões sem resposta continuam no total utilizado no cálculo.', { color: [110, 113, 105] });
@@ -70,7 +71,7 @@ export function createResultPdf(result) {
     text(`${index + 1}. ${proposal.tituloCurto}`, { bold: true, after: 1 });
     text(`${proposal.eixo} | ${candidate.nome} (${candidate.partido})`, { size: 9, after: 2 });
     if (proposal.descricao) text(proposal.descricao, { size: 9, after: 2 });
-    text(proposal.paginas === null ? 'Conferência pendente: sem referência de página no plano oficial.' : `Referência no dataset: páginas ${proposal.paginas} do plano de governo.`, { size: 8, color: [110, 113, 105], after: 5 });
+    text(proposal.paginas === null ? 'Conferência pendente: sem referência de página no plano oficial.' : `Plano oficial do TSE, páginas ${proposal.paginas}. ${proposal.fonte || ''}`, { size: 8, color: [110, 113, 105], after: 5 });
   });
 
   const pages = doc.getNumberOfPages();

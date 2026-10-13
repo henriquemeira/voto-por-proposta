@@ -1,0 +1,1004 @@
+{
+  "_fase": "turno-2",
+  "_fonte": "Planos oficiais apresentados ao TSE e páginas oficiais de propostas por assunto. As sínteses são editoriais e concisas; confira o texto integral e contexto no PDF.",
+  "_url_base": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026-segundo-turno",
+  "_niveis": {
+    "principal": "Propostas selecionadas para a primeira rodada rápida.",
+    "completo": "Demais temas identificados no plano; disponíveis na rodada completa."
+  },
+  "candidatos": [
+    {
+      "id": "lula",
+      "nome": "Luiz Inácio Lula da Silva",
+      "numero": 13,
+      "partido": "PT",
+      "coligacao": "Brasil Pronto Pra Mais",
+      "vice": "Geraldo Alckmin",
+      "urlTse": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/lula-propostas-de-governo",
+      "programa": "Brasil da Esperança 2027–2030",
+      "urlPdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt"
+    },
+    {
+      "id": "flavio",
+      "nome": "Flávio Bolsonaro",
+      "numero": 22,
+      "partido": "PL",
+      "coligacao": "Partido Liberal",
+      "vice": "Alfredo Gaspar",
+      "urlTse": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026/flavio-bolsonaro",
+      "programa": "Projeto de país 2027–2030",
+      "urlPdf": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl"
+    }
+  ],
+  "eixos": [
+    "Economia & Trabalho",
+    "Saúde & Proteção Social",
+    "Segurança & Justiça",
+    "Educação, Ciência & Tecnologia",
+    "Agro, Clima & Energia",
+    "Política Externa",
+    "Estado, Infraestrutura & Direitos"
+  ],
+  "propostas": [
+    {
+      "id": "lula-01",
+      "candidatoId": "lula",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Redução da jornada 6x1 para 5x2",
+      "nivel": "principal",
+      "paginas": "75",
+      "descricao": "Prevê 40 horas semanais, sem corte salarial, encerrando a escala 6x1.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=75"
+    },
+    {
+      "id": "lula-02",
+      "candidatoId": "lula",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Desenrola Brasil: renegociação de dívidas",
+      "nivel": "intermediario",
+      "paginas": "6-14, 57-58",
+      "descricao": "Renegociação oferece descontos, juros menores e prazos ampliados a famílias, pequenos negócios e agricultores.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=57"
+    },
+    {
+      "id": "lula-03",
+      "candidatoId": "lula",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Economia popular e solidária (Lei Paul Singer)",
+      "nivel": "intermediario",
+      "paginas": "73-77",
+      "descricao": "Apoia cooperativas populares com assistência técnica, financiamento e redes locais de comercialização.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=75"
+    },
+    {
+      "id": "lula-04",
+      "candidatoId": "lula",
+      "eixo": "Saúde & Proteção Social",
+      "tituloCurto": "Redução de filas com Agora Tem Especialistas",
+      "nivel": "principal",
+      "paginas": "34-40",
+      "descricao": "Amplia atendimento especializado por mutirões, serviços móveis e parcerias com hospitais privados.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=37"
+    },
+    {
+      "id": "lula-05",
+      "candidatoId": "lula",
+      "eixo": "Saúde & Proteção Social",
+      "tituloCurto": "Mais Médicos e fixação de profissionais",
+      "nivel": "principal",
+      "paginas": "34-40",
+      "descricao": "Busca manter médicos em regiões vulneráveis e formar especialistas em medicina de família.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=35"
+    },
+    {
+      "id": "lula-06",
+      "candidatoId": "lula",
+      "eixo": "Saúde & Proteção Social",
+      "tituloCurto": "Complexo Econômico-Industrial da Saúde (CEIS)",
+      "nivel": "intermediario",
+      "paginas": "34-40",
+      "descricao": "Incentiva pesquisa e fabricação nacional de insumos médicos para diminuir a dependência externa.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=39"
+    },
+    {
+      "id": "lula-07",
+      "candidatoId": "lula",
+      "eixo": "Saúde & Proteção Social",
+      "tituloCurto": "Saúde da mulher e dignidade menstrual",
+      "nivel": "intermediario",
+      "paginas": "34-40",
+      "descricao": "Amplia prevenção, contracepção e cuidados ginecológicos, incluindo distribuição gratuita de absorventes e medicamentos.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=38"
+    },
+    {
+      "id": "lula-08",
+      "candidatoId": "lula",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Controle de armas de fogo",
+      "nivel": "principal",
+      "paginas": "6-14, 26-30",
+      "descricao": "Reforça rastreamento de armamentos e fiscalização de colecionadores e atiradores.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=28"
+    },
+    {
+      "id": "lula-09",
+      "candidatoId": "lula",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Sistema Único de Segurança Pública (SUSP)",
+      "nivel": "principal",
+      "paginas": "6-14, 26-30",
+      "descricao": "Articula governos e integra informações para superar a fragmentação das ações de segurança.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=27"
+    },
+    {
+      "id": "lula-10",
+      "candidatoId": "lula",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Asfixia financeira do crime organizado",
+      "nivel": "intermediario",
+      "paginas": "26-30",
+      "descricao": "Coordena investigações para atingir recursos financeiros de facções e milícias.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=27"
+    },
+    {
+      "id": "lula-11",
+      "candidatoId": "lula",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Sistema prisional (Plano Pena Justa)",
+      "nivel": "intermediario",
+      "paginas": "26-30",
+      "descricao": "Moderniza penitenciárias e coordena governos e Justiça para cumprir metas de execução penal.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=28"
+    },
+    {
+      "id": "lula-12",
+      "candidatoId": "lula",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Ampliar ensino em tempo integral e creches",
+      "nivel": "principal",
+      "paginas": "31-34",
+      "descricao": "Financia creches e escolas integrais em cooperação com estados e municípios.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=31"
+    },
+    {
+      "id": "lula-13",
+      "candidatoId": "lula",
+      "eixo": "Agro, Clima & Energia",
+      "tituloCurto": "Zerar desmatamento ilegal até 2030",
+      "nivel": "principal",
+      "paginas": "70",
+      "descricao": "Estabelece desmatamento líquido zero até 2030, com fiscalização integrada e prevenção de incêndios.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=70"
+    },
+    {
+      "id": "lula-14",
+      "candidatoId": "lula",
+      "eixo": "Agro, Clima & Energia",
+      "tituloCurto": "Ampliar Minha Casa Minha Vida e apoiar agro exportador e familiar",
+      "nivel": "principal",
+      "paginas": "45, 59-60",
+      "descricao": "Expande habitação popular e crédito agrícola, apoiando produção familiar e exportações.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=45"
+    },
+    {
+      "id": "lula-15",
+      "candidatoId": "lula",
+      "eixo": "Política Externa",
+      "tituloCurto": "Multilateralismo (ONU, OMC, FMI) e BRICS",
+      "nivel": "intermediario",
+      "paginas": "77-82",
+      "descricao": "Defende reformas de organismos multilaterais e aprofundamento da cooperação com os BRICS.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=81"
+    },
+    {
+      "id": "lula-16",
+      "candidatoId": "lula",
+      "eixo": "Estado, Infraestrutura & Direitos",
+      "tituloCurto": "Estado digital e serviços públicos integrados",
+      "nivel": "intermediario",
+      "paginas": "16-18",
+      "descricao": "Expande serviços digitais personalizados e facilita acesso às plataformas públicas.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=17"
+    },
+    {
+      "id": "lula-17",
+      "candidatoId": "lula",
+      "eixo": "Estado, Infraestrutura & Direitos",
+      "tituloCurto": "Uso do poder de compra do Estado",
+      "nivel": "intermediario",
+      "paginas": "16-18",
+      "descricao": "Usa compras públicas para estimular inovação e desenvolvimento local.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=17"
+    },
+    {
+      "id": "flavio-01",
+      "candidatoId": "flavio",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Redução de impostos",
+      "nivel": "principal",
+      "paginas": "30, 53, 71-72",
+      "descricao": "Busca baixar tributos sobre produção, consumo, eletricidade e combustíveis.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=30"
+    },
+    {
+      "id": "flavio-02",
+      "candidatoId": "flavio",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Reforma Tributária",
+      "nivel": "principal",
+      "paginas": "30, 71-72",
+      "descricao": "Revisa a reforma em implantação para diminuir o IVA e evitar tributação cumulativa.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=30"
+    },
+    {
+      "id": "flavio-03",
+      "candidatoId": "flavio",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Negociado sobre o legislado",
+      "nivel": "intermediario",
+      "paginas": "44-45",
+      "descricao": "Permite acordos diretos entre empresas e trabalhadores sobre condições de contratação, dentro da lei.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=44"
+    },
+    {
+      "id": "flavio-04",
+      "candidatoId": "flavio",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Programa Primeiro Emprego",
+      "nivel": "intermediario",
+      "paginas": "43",
+      "descricao": "Cria contratação com encargos menores para jovens de 18 a 24 anos sem experiência profissional.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=43"
+    },
+    {
+      "id": "flavio-05",
+      "candidatoId": "flavio",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Redução do custo do trabalho",
+      "nivel": "completo",
+      "paginas": "43-44",
+      "descricao": "Diminui encargos gradualmente, preservando direitos, para incentivar contratação formal.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=43"
+    },
+    {
+      "id": "flavio-06",
+      "candidatoId": "flavio",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Castração química para criminosos sexuais",
+      "nivel": "principal",
+      "paginas": "14",
+      "descricao": "Propõe tratamento químico para condenados por estupro e abuso sexual de crianças.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=14"
+    },
+    {
+      "id": "flavio-07",
+      "candidatoId": "flavio",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Redução da maioridade penal para 14 anos em crimes graves",
+      "nivel": "principal",
+      "paginas": "13",
+      "descricao": "Propõe maioridade geral de 16 anos e responsabilização de maiores de 14 por crimes graves.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=13"
+    },
+    {
+      "id": "flavio-08",
+      "candidatoId": "flavio",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Sistema Muralha Brasileira (reconhecimento facial)",
+      "nivel": "principal",
+      "paginas": "15",
+      "descricao": "Conecta reconhecimento facial a registros criminais para encontrar foragidos e monitorar espaços públicos.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=15"
+    },
+    {
+      "id": "flavio-09",
+      "candidatoId": "flavio",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Tornozeleiras para agressores de mulheres",
+      "nivel": "intermediario",
+      "paginas": "14",
+      "descricao": "Monitora eletronicamente agressores de mulheres que possuem medidas protetivas.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=14"
+    },
+    {
+      "id": "flavio-10",
+      "candidatoId": "flavio",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Voucher educacional em falta de vagas",
+      "nivel": "principal",
+      "paginas": "34-36",
+      "descricao": "Oferece auxílio para matrícula em outra escola quando faltar vaga pública.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=36"
+    },
+    {
+      "id": "flavio-11",
+      "candidatoId": "flavio",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Ampliação de vagas em creches",
+      "nivel": "intermediario",
+      "paginas": "21",
+      "descricao": "Amplia creches integrais e oferece auxílio temporário para matrícula em instituições privadas credenciadas.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=21"
+    },
+    {
+      "id": "flavio-12",
+      "candidatoId": "flavio",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Política Nacional de Formação de Talentos",
+      "nivel": "intermediario",
+      "paginas": "34-36",
+      "descricao": "Identifica habilidades profissionais necessárias e adapta a formação às mudanças tecnológicas.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=36"
+    },
+    {
+      "id": "flavio-13",
+      "candidatoId": "flavio",
+      "eixo": "Agro, Clima & Energia",
+      "tituloCurto": "Mercado de carbono",
+      "nivel": "intermediario",
+      "paginas": "57-59",
+      "descricao": "Estrutura negociação regulada de créditos ambientais com regras previsíveis.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=57"
+    },
+    {
+      "id": "flavio-14",
+      "candidatoId": "flavio",
+      "eixo": "Agro, Clima & Energia",
+      "tituloCurto": "Armazenamento de safras",
+      "nivel": "intermediario",
+      "paginas": "31-32, 53-55",
+      "descricao": "Aumenta espaço para guardar colheitas, reduzindo perdas e favorecendo preços ao produtor.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=54"
+    },
+    {
+      "id": "flavio-15",
+      "candidatoId": "flavio",
+      "eixo": "Estado, Infraestrutura & Direitos",
+      "tituloCurto": "Fim da reeleição no Executivo",
+      "nivel": "principal",
+      "paginas": "66",
+      "descricao": "Propõe impedir novo mandato consecutivo especificamente para a Presidência da República.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=66"
+    },
+    {
+      "id": "flavio-16",
+      "candidatoId": "flavio",
+      "eixo": "Estado, Infraestrutura & Direitos",
+      "tituloCurto": "Programa Nacional de Desestatização",
+      "nivel": "principal",
+      "paginas": "69-70",
+      "descricao": "Retoma privatizações mediante avaliação individual da necessidade de participação estatal.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl#page=70"
+    },
+    {
+      "id": "lula-extra-01",
+      "candidatoId": "lula",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Arcabouço fiscal e responsabilidade fiscal",
+      "nivel": "completo",
+      "paginas": "6, 14",
+      "descricao": "Combina regras para sustentabilidade das contas públicas com espaço para investimento e políticas sociais.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=6"
+    },
+    {
+      "id": "lula-extra-02",
+      "candidatoId": "lula",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Nova Indústria Brasil",
+      "nivel": "completo",
+      "paginas": "47, 54, 82",
+      "descricao": "Mobiliza financiamento, inovação e compras públicas para ampliar a produção industrial nacional.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=47"
+    },
+    {
+      "id": "lula-extra-03",
+      "candidatoId": "lula",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Trabalho por aplicativos e economia digital",
+      "nivel": "completo",
+      "paginas": "54, 75",
+      "descricao": "Inclui a proteção de trabalhadores de plataformas entre os temas da agenda de trabalho e economia digital.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=54"
+    },
+    {
+      "id": "lula-extra-04",
+      "candidatoId": "lula",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Micro e pequenas empresas: crédito e fomento",
+      "nivel": "completo",
+      "paginas": "57, 58",
+      "descricao": "Prevê instrumentos de crédito e apoio ao desenvolvimento de micro, pequenas e médias empresas.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=57"
+    },
+    {
+      "id": "lula-extra-05",
+      "candidatoId": "lula",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Valorização do salário mínimo",
+      "nivel": "completo",
+      "paginas": "18, 25, 73",
+      "descricao": "Mantém a valorização do salário mínimo como instrumento de aumento de renda e poder de compra.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=18"
+    },
+    {
+      "id": "lula-extra-06",
+      "candidatoId": "lula",
+      "eixo": "Saúde & Proteção Social",
+      "tituloCurto": "Farmácia Popular e acesso a medicamentos",
+      "nivel": "completo",
+      "paginas": "34, 40",
+      "descricao": "Amplia o acesso a medicamentos por meio da Farmácia Popular e de políticas de assistência farmacêutica.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=34"
+    },
+    {
+      "id": "lula-extra-07",
+      "candidatoId": "lula",
+      "eixo": "Saúde & Proteção Social",
+      "tituloCurto": "Saúde mental e expansão dos CAPS",
+      "nivel": "completo",
+      "paginas": "18, 26, 34",
+      "descricao": "Reforça a atenção psicossocial e os serviços comunitários de saúde mental.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=18"
+    },
+    {
+      "id": "lula-extra-08",
+      "candidatoId": "lula",
+      "eixo": "Saúde & Proteção Social",
+      "tituloCurto": "Vacinação e recuperação das coberturas",
+      "nivel": "completo",
+      "paginas": "6, 14, 34",
+      "descricao": "Retoma ações para ampliar a cobertura vacinal e fortalecer o Programa Nacional de Imunizações.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=6"
+    },
+    {
+      "id": "lula-extra-09",
+      "candidatoId": "lula",
+      "eixo": "Saúde & Proteção Social",
+      "tituloCurto": "Brasil Sorridente e saúde bucal",
+      "nivel": "completo",
+      "paginas": "34, 40",
+      "descricao": "Amplia ações de prevenção e atendimento odontológico no SUS.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=34"
+    },
+    {
+      "id": "lula-extra-10",
+      "candidatoId": "lula",
+      "eixo": "Saúde & Proteção Social",
+      "tituloCurto": "Política Nacional de Cuidados",
+      "nivel": "completo",
+      "paginas": "18, 26",
+      "descricao": "Organiza políticas de cuidado e apoio a pessoas que necessitam de assistência e a quem cuida.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=18"
+    },
+    {
+      "id": "lula-extra-11",
+      "candidatoId": "lula",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Ministério da Segurança Pública",
+      "nivel": "completo",
+      "paginas": "26, 30",
+      "descricao": "Propõe coordenação nacional das políticas de segurança pública e integração federativa.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=26"
+    },
+    {
+      "id": "lula-extra-12",
+      "candidatoId": "lula",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Combate a crimes financeiros e cibernéticos",
+      "nivel": "completo",
+      "paginas": "18, 30",
+      "descricao": "Reforça a atuação coordenada contra crimes financeiros e digitais, incluindo ações do Celular Seguro.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=18"
+    },
+    {
+      "id": "lula-extra-13",
+      "candidatoId": "lula",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Proteção de mulheres contra a violência",
+      "nivel": "completo",
+      "paginas": "18, 29",
+      "descricao": "Articula ações de prevenção e enfrentamento da violência contra mulheres.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=18"
+    },
+    {
+      "id": "lula-extra-14",
+      "candidatoId": "lula",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Compromisso Nacional Criança Alfabetizada",
+      "nivel": "intermediario",
+      "paginas": "30, 34",
+      "descricao": "Apoia estados e municípios para garantir alfabetização das crianças na idade adequada.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=30"
+    },
+    {
+      "id": "lula-extra-15",
+      "candidatoId": "lula",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Pé-de-Meia no ensino médio",
+      "nivel": "intermediario",
+      "paginas": "30, 34",
+      "descricao": "Oferece incentivo financeiro para apoiar a permanência e conclusão do ensino médio.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=30"
+    },
+    {
+      "id": "lula-extra-16",
+      "candidatoId": "lula",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Institutos Federais e ensino técnico",
+      "nivel": "completo",
+      "paginas": "30, 34",
+      "descricao": "Amplia a educação profissional e tecnológica e a rede de Institutos Federais.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=30"
+    },
+    {
+      "id": "lula-extra-17",
+      "candidatoId": "lula",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Valorização e formação de professores",
+      "nivel": "completo",
+      "paginas": "30, 34",
+      "descricao": "Prevê ações de formação e valorização dos profissionais da educação.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=30"
+    },
+    {
+      "id": "lula-extra-18",
+      "candidatoId": "lula",
+      "eixo": "Agro, Clima & Energia",
+      "tituloCurto": "Plano de Transformação Ecológica",
+      "nivel": "intermediario",
+      "paginas": "50, 52",
+      "descricao": "Integra medidas econômicas, financiamento e inovação à transição para uma economia de baixo carbono.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=50"
+    },
+    {
+      "id": "lula-extra-19",
+      "candidatoId": "lula",
+      "eixo": "Agro, Clima & Energia",
+      "tituloCurto": "Prevenção de incêndios florestais",
+      "nivel": "intermediario",
+      "paginas": "70",
+      "descricao": "Fortalece prevenção, monitoramento e resposta a incêndios, junto à proteção dos biomas.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=70"
+    },
+    {
+      "id": "lula-extra-20",
+      "candidatoId": "lula",
+      "eixo": "Agro, Clima & Energia",
+      "tituloCurto": "Agricultura familiar e crédito rural",
+      "nivel": "completo",
+      "paginas": "59, 60",
+      "descricao": "Fortalece o crédito e as políticas de apoio à produção da agricultura familiar.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=59"
+    },
+    {
+      "id": "lula-extra-21",
+      "candidatoId": "lula",
+      "eixo": "Política Externa",
+      "tituloCurto": "Aliança Global contra a Fome e a Pobreza",
+      "nivel": "intermediario",
+      "paginas": "58, 59",
+      "descricao": "Promove cooperação internacional para articular políticas de combate à fome e à pobreza.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=58"
+    },
+    {
+      "id": "lula-extra-22",
+      "candidatoId": "lula",
+      "eixo": "Política Externa",
+      "tituloCurto": "Reforma das instituições multilaterais",
+      "nivel": "completo",
+      "paginas": "77, 82",
+      "descricao": "Defende mudanças na governança de organismos internacionais, incluindo ONU, OMC e FMI.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=77"
+    },
+    {
+      "id": "lula-extra-23",
+      "candidatoId": "lula",
+      "eixo": "Estado, Infraestrutura & Direitos",
+      "tituloCurto": "Novo PAC e infraestrutura logística",
+      "nivel": "completo",
+      "paginas": "15, 30",
+      "descricao": "Coordena investimentos em infraestrutura e logística por meio do Novo Programa de Aceleração do Crescimento.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=15"
+    },
+    {
+      "id": "lula-extra-24",
+      "candidatoId": "lula",
+      "eixo": "Estado, Infraestrutura & Direitos",
+      "tituloCurto": "Sistema Único de Assistência Social",
+      "nivel": "completo",
+      "paginas": "6, 25",
+      "descricao": "Fortalece a rede pública de assistência social e a cooperação entre os entes federativos.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=6"
+    },
+    {
+      "id": "lula-extra-25",
+      "candidatoId": "lula",
+      "eixo": "Estado, Infraestrutura & Direitos",
+      "tituloCurto": "Inclusão digital e serviços públicos",
+      "nivel": "completo",
+      "paginas": "16, 18",
+      "descricao": "Amplia acesso digital a serviços públicos e busca integrar plataformas governamentais.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pt#page=16"
+    },
+    {
+      "id": "flavio-extra-01",
+      "candidatoId": "flavio",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Banco nacional de vagas de emprego",
+      "nivel": "completo",
+      "paginas": "44",
+      "descricao": "Cria um banco de vagas para aproximar trabalhadores de oportunidades de emprego.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=44"
+    },
+    {
+      "id": "flavio-extra-02",
+      "candidatoId": "flavio",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Crédito para empreender",
+      "nivel": "completo",
+      "paginas": "45, 46",
+      "descricao": "Oferece crédito e instrumentos de apoio para abertura e expansão de pequenos negócios.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=45"
+    },
+    {
+      "id": "flavio-extra-03",
+      "candidatoId": "flavio",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Abertura simplificada de empresas",
+      "nivel": "completo",
+      "paginas": "27",
+      "descricao": "Reduz etapas e burocracia para formalizar novos negócios.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=27"
+    },
+    {
+      "id": "flavio-extra-04",
+      "candidatoId": "flavio",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Primeira empresa",
+      "nivel": "completo",
+      "paginas": "45",
+      "descricao": "Prevê apoio a quem inicia o primeiro empreendimento.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=45"
+    },
+    {
+      "id": "flavio-extra-05",
+      "candidatoId": "flavio",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Equilíbrio fiscal e dívida pública",
+      "nivel": "completo",
+      "paginas": "29, 71",
+      "descricao": "Apresenta medidas de controle fiscal e redução da dívida pública.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=29"
+    },
+    {
+      "id": "flavio-extra-06",
+      "candidatoId": "flavio",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Trabalhadores acima de 50 anos",
+      "nivel": "completo",
+      "paginas": "43, 44",
+      "descricao": "Propõe ações para ampliar oportunidades de trabalho para profissionais mais velhos.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=43"
+    },
+    {
+      "id": "flavio-extra-07",
+      "candidatoId": "flavio",
+      "eixo": "Saúde & Proteção Social",
+      "tituloCurto": "Agendamento de consultas com inteligência artificial",
+      "nivel": "principal",
+      "paginas": "25, 26",
+      "descricao": "Usa inteligência artificial para organizar agendamentos e reduzir o tempo de espera no SUS.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=25"
+    },
+    {
+      "id": "flavio-extra-08",
+      "candidatoId": "flavio",
+      "eixo": "Saúde & Proteção Social",
+      "tituloCurto": "Digitalização do SUS e prontuário único",
+      "nivel": "intermediario",
+      "paginas": "25, 26",
+      "descricao": "Integra informações de saúde em prontuário eletrônico e amplia serviços digitais.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=25"
+    },
+    {
+      "id": "flavio-extra-09",
+      "candidatoId": "flavio",
+      "eixo": "Saúde & Proteção Social",
+      "tituloCurto": "Uso de horários ociosos da rede privada",
+      "nivel": "intermediario",
+      "paginas": "37, 38",
+      "descricao": "Prevê utilizar capacidade disponível em unidades privadas para ampliar consultas e exames.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=37"
+    },
+    {
+      "id": "flavio-extra-10",
+      "candidatoId": "flavio",
+      "eixo": "Saúde & Proteção Social",
+      "tituloCurto": "Telessaúde",
+      "nivel": "completo",
+      "paginas": "37, 38",
+      "descricao": "Amplia o atendimento remoto como parte da rede de serviços de saúde.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=37"
+    },
+    {
+      "id": "flavio-extra-11",
+      "candidatoId": "flavio",
+      "eixo": "Saúde & Proteção Social",
+      "tituloCurto": "Medicamentos entregues em casa",
+      "nivel": "completo",
+      "paginas": "37, 38",
+      "descricao": "Propõe entrega domiciliar de medicamentos para facilitar o acesso de pacientes.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=37"
+    },
+    {
+      "id": "flavio-extra-12",
+      "candidatoId": "flavio",
+      "eixo": "Saúde & Proteção Social",
+      "tituloCurto": "Saúde mental e cuidado de idosos",
+      "nivel": "completo",
+      "paginas": "38, 39",
+      "descricao": "Inclui serviços de saúde mental e iniciativas de apoio e cuidado a pessoas idosas.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=38"
+    },
+    {
+      "id": "flavio-extra-13",
+      "candidatoId": "flavio",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Progressão de pena para crimes hediondos",
+      "nivel": "principal",
+      "paginas": "15, 16",
+      "descricao": "Propõe restringir a progressão de pena em condenações por crimes hediondos.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=15"
+    },
+    {
+      "id": "flavio-extra-14",
+      "candidatoId": "flavio",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Reforço da segurança nas fronteiras",
+      "nivel": "intermediario",
+      "paginas": "13, 15",
+      "descricao": "Amplia ações de vigilância e controle de fronteiras contra tráfico e crime organizado.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=13"
+    },
+    {
+      "id": "flavio-extra-15",
+      "candidatoId": "flavio",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Combate ao tráfico e à cocaína nos portos",
+      "nivel": "completo",
+      "paginas": "13, 15",
+      "descricao": "Reforça ações de fiscalização e combate ao tráfico de drogas em rotas portuárias.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=13"
+    },
+    {
+      "id": "flavio-extra-16",
+      "candidatoId": "flavio",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Canais de denúncia de violência contra mulheres",
+      "nivel": "completo",
+      "paginas": "18, 19",
+      "descricao": "Amplia canais de denúncia e atendimento relacionados à violência contra mulheres.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=18"
+    },
+    {
+      "id": "flavio-extra-17",
+      "candidatoId": "flavio",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Apoio às famílias de vítimas de crimes",
+      "nivel": "completo",
+      "paginas": "15",
+      "descricao": "Prevê assistência e apoio a familiares de vítimas de crimes violentos.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=15"
+    },
+    {
+      "id": "flavio-extra-18",
+      "candidatoId": "flavio",
+      "eixo": "Segurança & Justiça",
+      "tituloCurto": "Recuperação de áreas sob domínio de facções",
+      "nivel": "completo",
+      "paginas": "47, 48",
+      "descricao": "Propõe retomar territórios com presença de facções por meio de ações de segurança e serviços.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=47"
+    },
+    {
+      "id": "flavio-extra-19",
+      "candidatoId": "flavio",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Alfabetização pelo método fônico",
+      "nivel": "completo",
+      "paginas": "34, 35",
+      "descricao": "Adota o método fônico como referência para o ensino inicial da leitura e da escrita.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=34"
+    },
+    {
+      "id": "flavio-extra-20",
+      "candidatoId": "flavio",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Capacitação contínua de professores",
+      "nivel": "completo",
+      "paginas": "34, 35",
+      "descricao": "Prevê formação continuada para docentes e desenvolvimento profissional.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=34"
+    },
+    {
+      "id": "flavio-extra-21",
+      "candidatoId": "flavio",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Conectividade nas escolas",
+      "nivel": "completo",
+      "paginas": "24",
+      "descricao": "Amplia o acesso à internet e à conectividade nas unidades escolares.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=24"
+    },
+    {
+      "id": "flavio-extra-22",
+      "candidatoId": "flavio",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Escolas cívico-militares",
+      "nivel": "completo",
+      "paginas": "34, 36",
+      "descricao": "Propõe ampliar modelos cívico-militares de gestão escolar.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=34"
+    },
+    {
+      "id": "flavio-extra-23",
+      "candidatoId": "flavio",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Ensino técnico e formação profissional",
+      "nivel": "completo",
+      "paginas": "36, 37",
+      "descricao": "Amplia caminhos de educação técnica e formação voltada ao trabalho.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=36"
+    },
+    {
+      "id": "flavio-extra-24",
+      "candidatoId": "flavio",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Reforço escolar e recuperação da aprendizagem",
+      "nivel": "completo",
+      "paginas": "34, 36",
+      "descricao": "Oferece apoio adicional a estudantes para recuperação de conteúdos e aprendizagem.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=34"
+    },
+    {
+      "id": "flavio-extra-25",
+      "candidatoId": "flavio",
+      "eixo": "Política Externa",
+      "tituloCurto": "Abertura comercial e cadeias globais de valor",
+      "nivel": "intermediario",
+      "paginas": "62, 63",
+      "descricao": "Busca ampliar a integração comercial do país e a participação em cadeias globais de produção.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=62"
+    },
+    {
+      "id": "flavio-extra-26",
+      "candidatoId": "flavio",
+      "eixo": "Política Externa",
+      "tituloCurto": "Adesão à OCDE",
+      "nivel": "intermediario",
+      "paginas": "63",
+      "descricao": "Defende a entrada do Brasil na Organização para a Cooperação e Desenvolvimento Econômico.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=63"
+    },
+    {
+      "id": "flavio-extra-27",
+      "candidatoId": "flavio",
+      "eixo": "Política Externa",
+      "tituloCurto": "Defesa nacional e soberania",
+      "nivel": "completo",
+      "paginas": "61, 62",
+      "descricao": "Trata de defesa nacional, soberania e posicionamento internacional do Brasil.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=61"
+    },
+    {
+      "id": "flavio-extra-28",
+      "candidatoId": "flavio",
+      "eixo": "Agro, Clima & Energia",
+      "tituloCurto": "Minerais críticos e transição energética",
+      "nivel": "completo",
+      "paginas": "55, 63",
+      "descricao": "Incentiva a exploração e o processamento de minerais considerados estratégicos para a transição energética.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=55"
+    },
+    {
+      "id": "flavio-extra-29",
+      "candidatoId": "flavio",
+      "eixo": "Estado, Infraestrutura & Direitos",
+      "tituloCurto": "Central da Mulher e atendimento",
+      "nivel": "intermediario",
+      "paginas": "17, 18",
+      "descricao": "Cria um canal centralizado de informação, acolhimento e orientação para mulheres.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=17"
+    },
+    {
+      "id": "flavio-extra-30",
+      "candidatoId": "flavio",
+      "eixo": "Estado, Infraestrutura & Direitos",
+      "tituloCurto": "Capacitação e independência financeira feminina",
+      "nivel": "intermediario",
+      "paginas": "19, 20",
+      "descricao": "Prevê qualificação profissional e iniciativas de autonomia econômica para mulheres.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=19"
+    },
+    {
+      "id": "flavio-extra-31",
+      "candidatoId": "flavio",
+      "eixo": "Estado, Infraestrutura & Direitos",
+      "tituloCurto": "Assistente virtual ClarIA",
+      "nivel": "completo",
+      "paginas": "18, 19",
+      "descricao": "Apresenta uma assistente virtual para orientar e encaminhar mulheres a serviços e canais de apoio.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=18"
+    },
+    {
+      "id": "flavio-extra-32",
+      "candidatoId": "flavio",
+      "eixo": "Estado, Infraestrutura & Direitos",
+      "tituloCurto": "INSS sem fila",
+      "nivel": "completo",
+      "paginas": "26, 73",
+      "descricao": "Propõe reduzir filas e agilizar o atendimento de serviços previdenciários.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-proposta-pl#page=26"
+    },
+    {
+      "id": "lula-extra-26",
+      "candidatoId": "lula",
+      "eixo": "Economia & Trabalho",
+      "tituloCurto": "Reforma tributária",
+      "nivel": "principal",
+      "paginas": "18, 25",
+      "descricao": "Dá continuidade à reforma tributária e à agenda de simplificação do sistema, conforme os eixos econômicos do plano.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=18"
+    },
+    {
+      "id": "lula-extra-27",
+      "candidatoId": "lula",
+      "eixo": "Estado, Infraestrutura & Direitos",
+      "tituloCurto": "Integridade e combate à corrupção",
+      "nivel": "principal",
+      "paginas": "16, 18",
+      "descricao": "Prevê medidas de controle, integridade e prevenção à corrupção, com transparência e acompanhamento social.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=16"
+    },
+    {
+      "id": "lula-extra-28",
+      "candidatoId": "lula",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Expansão do ensino superior, ProUni e FIES",
+      "nivel": "completo",
+      "paginas": "42, 58",
+      "descricao": "Inclui expansão do ensino superior e instrumentos como ProUni e FIES, além de hospitais universitários.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=42"
+    },
+    {
+      "id": "lula-extra-29",
+      "candidatoId": "lula",
+      "eixo": "Educação, Ciência & Tecnologia",
+      "tituloCurto": "Ciência, tecnologia e inovação",
+      "nivel": "completo",
+      "paginas": "50, 52",
+      "descricao": "Prevê ações de ciência, tecnologia e inovação como parte da estratégia de desenvolvimento e neoindustrialização.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=50"
+    },
+    {
+      "id": "lula-extra-30",
+      "candidatoId": "lula",
+      "eixo": "Estado, Infraestrutura & Direitos",
+      "tituloCurto": "Transparência das emendas parlamentares",
+      "nivel": "completo",
+      "paginas": "15, 16",
+      "descricao": "Propõe ampliar transparência e debate público sobre emendas parlamentares.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=15"
+    },
+    {
+      "id": "lula-extra-31",
+      "candidatoId": "lula",
+      "eixo": "Estado, Infraestrutura & Direitos",
+      "tituloCurto": "Participação social em conferências, conselhos e PPA",
+      "nivel": "completo",
+      "paginas": "15, 16",
+      "descricao": "Valoriza conferências, conselhos e participação social na elaboração do Plano Plurianual.",
+      "fonte": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt#page=15"
+    }
+  ]
+}
