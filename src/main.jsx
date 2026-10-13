@@ -264,10 +264,6 @@ function App() {
             <div className="eyebrow"><span className="eyebrow-line" /> {phase === 'turno-2' ? 'ELEIÇÕES 2026 · SEGUNDO TURNO' : 'ELEIÇÕES 2026 · ARQUIVO DO PRIMEIRO TURNO'}</div>
             <h1>{phase === 'turno-2' ? <>Corrida pelo<br /><em>segundo turno.</em></> : <>Arquivo do<br /><em>primeiro turno.</em></>}</h1>
             <p className="hero-text">{phase === 'turno-2' ? 'Explore com calma as propostas de Lula e Flávio Bolsonaro. Comece pelo essencial ou abra uma rodada completa, sempre sem ver quem apresentou cada ideia.' : 'Revise a rodada histórica do primeiro turno, com as propostas e candidaturas que participaram daquela fase.'}</p>
-            <div className="phase-switch" role="group" aria-label="Fase eleitoral">
-              <button className={phase === 'turno-2' ? 'active' : ''} aria-pressed={phase === 'turno-2'} onClick={() => changePhase('turno-2')}>Segundo turno · Lula e Flávio</button>
-              <button className={phase === 'turno-1' ? 'active' : ''} aria-pressed={phase === 'turno-1'} onClick={() => changePhase('turno-1')}>Arquivo · primeiro turno</button>
-            </div>
             <div className="hero-facts">
               <div><span className="fact-icon"><Sparkles size={16} /></span><span>Cartões únicos, em ordem aleatória</span></div>
               <div><span className="fact-icon"><Heart size={16} /></span><span>Seu ritmo, suas escolhas</span></div>
@@ -323,6 +319,12 @@ function App() {
             {savedState.error && <p role="status">{savedState.error}</p>}
             <button className="text-button" onClick={forgetSavedResult}>Esquecer este resultado</button>
           </section>}
+          <section className="phase-switch" aria-label="Outras fases eleitorais">
+            <span>{phase === 'turno-2' ? 'Quer consultar a rodada anterior?' : 'Quer voltar à campanha do segundo turno?'}</span>
+            <button onClick={() => changePhase(phase === 'turno-2' ? 'turno-1' : 'turno-2')}>
+              {phase === 'turno-2' ? 'Ver arquivo do primeiro turno' : 'Voltar ao segundo turno · Lula e Flávio'} <ArrowRight size={14} />
+            </button>
+          </section>
           <footer className="intro-footer"><span>FEITO PARA ESCOLHER COM CALMA</span><span>{database.propostas.length} propostas de origem · repetidas agrupadas · 0 nomes à vista</span></footer>
         </main>
       )}
