@@ -46,6 +46,8 @@ O cartão mostra título, tema, situação da promessa, etapa legislativa quando
 
 Quando um compromisso tiver uma relação validada com uma proposta do outro candidato do segundo turno, o cartão recebe um selo **“Proposta equiparável”**. O selo deve ser visível tanto no Kanban quanto na tabela e levar ao detalhe comparativo, onde aparecem os dois textos oficiais e a justificativa editorial. Isso permite que pessoas que apoiaram qualquer candidatura acompanhem o compromisso comum sem sugerir que a execução já ocorreu.
 
+O agrupamento já usado no jogo pode iniciar essa comparação: a função `buildDeck` reúne propostas pelo mesmo tema e título depois de normalizar acentos, caixa e pontuação. No painel de mandato, esse resultado deve ser tratado como **sugestão de par**, mostrando os textos de ambas as candidaturas para revisão. A coincidência exata ajuda a encontrar propostas que o jogo já apresenta no mesmo cartão, mas não confirma equivalência de escopo, público, meta ou condições. Portanto, o selo só é habilitado quando a relação tiver classificação `equiparavel` e revisão editorial explicitamente validada; outras relações sugeridas não recebem o selo.
+
 ### Tabela de acompanhamento
 
 Uma linha por compromisso, com busca e filtros. Colunas sugeridas: título, tema, tipo, status, progresso (quando houver métrica válida), última atualização e fontes. Um ícone de check pode indicar **concluída**, mas não substitui os outros estados. No celular, a tabela vira linhas/cartões legíveis, sem exigir rolagem horizontal extensa.
@@ -148,6 +150,7 @@ Separar edição eleitoral, candidatura, compromisso, fontes e observações. N�
   "comparacoes": [{
     "compromissoId": "eleicao-2026-pl-014",
     "classificacao": "equiparavel",
+    "validado": true,
     "justificativa": "Os dois compromissos definem o mesmo resultado e abrangem o mesmo público, embora usem formulações diferentes.",
     "revisadoEm": "2026-10-26"
   }],
@@ -187,7 +190,7 @@ Adicionar navegação “Eleições / Mandato”, tabela e Kanban, filtros bási
 
 ### Fase 3 — Comparação
 
-Criar relações editoriais entre os programas dos dois candidatos, priorizando pares temáticos com texto lado a lado e justificativa. Separar semelhança de campanha da execução no governo.
+Reaproveitar `buildDeck` para listar sugestões de pares com mesmo tema e título normalizados, apresentando os textos lado a lado para revisão. Validar ou corrigir editorialmente cada relação, registrando classificação, justificativa e data; só relações equiparáveis validadas recebem o selo. Ampliar depois a identificação para correspondências temáticas com títulos diferentes. Separar semelhança de campanha da execução no governo.
 
 ### Fase 4 — Dados e manutenção
 

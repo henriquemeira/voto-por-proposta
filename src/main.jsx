@@ -6,6 +6,7 @@ import {
 } from 'lucide-react';
 import rawDatabase from '../propostas-candidatos-2026.json';
 import secondRoundRaw from './data/propostas-segundo-turno.json';
+import MandateDashboard from './components/MandateDashboard.jsx';
 import { shuffle, filterDeck, extendRound, leaders, estimateTime } from './lib/round.js';
 import { createResult, readSavedResult, saveResult, forgetResult, formatResultDate } from './lib/result.js';
 import { downloadResultPdf } from './lib/result-pdf.js';
@@ -251,12 +252,15 @@ function App() {
           <span className="brand-name">voto <b>por</b> proposta</span>
         </a>
         <div className="topbar-right">
+          {screen === 'intro' && <button className="mandate-nav-button" onClick={() => setScreen('mandate')}>Acompanhar mandato <ArrowRight size={14}/></button>}
           <span className="privacy-note"><span className="privacy-dot" /> Identidades ocultas até o final</span>
           <button className="icon-button help-button" onClick={() => setShowMethod(true)} aria-label="Como funciona">
             <CircleHelp size={19} strokeWidth={1.8} />
           </button>
         </div>
       </header>
+
+      {screen === 'mandate' && <MandateDashboard onBack={() => setScreen('intro')} />}
 
       {screen === 'intro' && (
         <main className="intro-screen page-width" id="inicio">

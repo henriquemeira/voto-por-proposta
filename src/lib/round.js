@@ -7,7 +7,7 @@ export const shuffle = (items) => {
   return copy;
 };
 
-const normalizeText = (text) => text
+export const normalizeProposalText = (text) => text
   .normalize('NFD')
   .replace(/[\u0300-\u036f]/g, '')
   .toLocaleLowerCase('pt-BR')
@@ -18,7 +18,7 @@ export function buildDeck(proposals) {
   const distinctIds = [...new Map(proposals.map((proposal) => [proposal.id, proposal])).values()];
   const cardsByTopic = new Map();
   distinctIds.forEach((proposal) => {
-    const key = `${normalizeText(proposal.eixo)}|${normalizeText(proposal.tituloCurto)}`;
+    const key = `${normalizeProposalText(proposal.eixo)}|${normalizeProposalText(proposal.tituloCurto)}`;
     const existing = cardsByTopic.get(key);
     if (!existing) {
       cardsByTopic.set(key, {
